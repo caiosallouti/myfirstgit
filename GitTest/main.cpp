@@ -10,8 +10,9 @@
 
 int main(int argc, const char * argv[]) {
     int i;
-    for (i=0;i<10;i++){
+    while(i < 10){
         std::cout << "Hello, World!\n";
+        i++;
     }
     
     return 0;
