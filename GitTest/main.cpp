@@ -9,6 +9,10 @@
 #include <iostream>
 
 int main(int argc, const char * argv[]) {
-    std::cout << "Hello, World!\n";
+    int i;
+    for (i=0;i<10;i++){
+        std::cout << "Hello, World!\n";
+    }
+    
     return 0;
 }
